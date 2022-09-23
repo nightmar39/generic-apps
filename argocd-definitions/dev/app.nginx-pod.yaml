@@ -12,7 +12,7 @@ spec:
     namespace: nginx-pod-dev
     name: in-cluster
   source:
-    repoURL: https://github.com/nightmar39/cd-five-mins.git
+    repoURL: https://github.com/nightmar39/tiger-mono-repo.git
     targetRevision: main
     path: ./k8s-resources/nginx-pod/dev
   syncPolicy:

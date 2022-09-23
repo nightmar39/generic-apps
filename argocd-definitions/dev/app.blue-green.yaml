@@ -12,7 +12,7 @@ spec:
     namespace: blue-green-demo
     name: in-cluster
   source:
-    repoURL: https://github.com/nightmar39/cd-five-mins.git
+    repoURL: https://github.com/nightmar39/tiger-mono-repo.git
     targetRevision: main
     path: ./k8s-resources/blue-green-demo
   syncPolicy:
